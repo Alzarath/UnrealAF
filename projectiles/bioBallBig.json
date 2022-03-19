@@ -8,30 +8,20 @@
 		{
 			"type": "spawn",
 			"trigger": {
-				"collideWith": 65534
-			},
-			"projectile": "ProjectileTemplate:bioBallShort",
-			"numProjectiles": 4,
-			"spread": 0.45,
-			"expire": false
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"afterTicks": 120,
-				"atCursor": true
-			},
-			"projectile": "ProjectileTemplate:bioBallShort",
-			"numProjectiles": 4,
-			"spread": 0.45,
-			"expire": false
-		},
-		{
-			"type": "spawn",
-			"trigger": {
 				"collideWith": 65535
 			},
+			"projectile": "ProjectileTemplate:bioBallShort",
+			"numProjectiles": 4,
+			"spread": 0.45,
+			"expire": false
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 8
+			},
 			"projectile": "ProjectileTemplate:bioWad-4",
+			"requireParent": true,
 			"expire": true
 		},
 		{
@@ -40,7 +30,19 @@
 				"afterTicks": 120,
 				"atCursor": true
 			},
+			"projectile": "ProjectileTemplate:bioBallShort",
+			"numProjectiles": 4,
+			"spread": 0.45,
+			"expire": false
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"afterTicks": 120,
+				"atCursor": true
+			},
 			"projectile": "ProjectileTemplate:bioWad-4",
+			"requireParent": true,
 			"expire": true
 		}
 	]

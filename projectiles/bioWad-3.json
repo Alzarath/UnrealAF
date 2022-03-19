@@ -1,7 +1,17 @@
 {
 	"basedOn": "bioWad-1",
-	"categories": 514,
 	"density": 4,
 	"radius": 0.015,
-	"damage": 16
+	"damage": 16,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:bioWad-4",
+			"requireParent": true,
+			"expire": true
+		}
+	]
 }

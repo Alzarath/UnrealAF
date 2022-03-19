@@ -1,5 +1,5 @@
 {
-	"categories": 2,
+	"categories": 128,
 	"density": 1,
 	"restitution": 0,
 	"radius": 0.005,
@@ -7,7 +7,7 @@
 	"maxTicks": 600,
 	"minTicks": 1,
 	"damage": 4,
-	"expireOn": 1,
+	"expireOn": 257,
 	"conveyable": true,
 	"shieldTakesOwnership": false,
 	"behaviours": [
@@ -17,6 +17,7 @@
 				"collideWith": 8
 			},
 			"projectile": "ProjectileTemplate:bioWad-1",
+			"requireParent": true,
 			"expire": true
 		},
 		{
@@ -26,40 +27,7 @@
 				"atCursor": true
 			},
 			"projectile": "ProjectileTemplate:bioWad-1",
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 128
-			},
-			"projectile": "ProjectileTemplate:bioWad-2",
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 256
-			},
-			"projectile": "ProjectileTemplate:bioWad-3",
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 512
-			},
-			"projectile": "ProjectileTemplate:bioWad-4",
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 1024
-			},
-			"projectile": "ProjectileTemplate:bioBall",
-			"numProjectiles": 8,
-			"spread": 0.9,
+			"requireParent": true,
 			"expire": true
 		}
 	],

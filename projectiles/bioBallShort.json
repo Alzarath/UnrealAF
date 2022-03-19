@@ -7,6 +7,7 @@
 				"afterTicks": 15
 			},
 			"projectile": "ProjectileTemplate:bioWad-1",
+			"requireParent": true,
 			"expire": true
 		},
 		{

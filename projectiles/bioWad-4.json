@@ -1,7 +1,18 @@
 {
 	"basedOn": "bioWad-1",
-	"categories": 1026,
 	"density": 8,
 	"radius": 0.02,
-	"damage": 32
+	"damage": 32,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:bioBallFleeting",
+			"numProjectiles": 16,
+			"spread": 0.9375,
+			"expire": true
+		}
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"categories": 130,
+	"categories": 256,
 	"density": 1,
 	"restitution": 0,
 	"radius": 0.005,
@@ -7,10 +7,20 @@
 	"maxTicks": 300,
 	"minTicks": 1,
 	"damage": 4,
-	"destructible": {},
+	"expireOn": 19,
 	"conveyable": true,
 	"shieldTakesOwnership": false,
-	"expireOn": 65511,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:bioWad-2",
+			"requireParent": true,
+			"expire": true
+		}
+	],
 	"sound": "horcrux",
 	"color": "#22ff66",
 	"renderers": [
