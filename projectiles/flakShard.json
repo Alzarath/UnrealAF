@@ -1,0 +1,39 @@
+{
+	"density": 1,
+	"ccd": false,
+	"collideWith": 65535,
+	"expireOn": 65511,
+	"radius": 0.002,
+	"speed": 0.8,
+	"maxTicks": 30,
+	"damage": 4,
+	"lifeSteal": 0.3,
+	"color": "#ff9944",
+	"sound": "flakCannon",
+	"soundHit": "flakShard",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.02
+		},
+		{
+			"type": "projectile",
+			"ticks": 30,
+			"smoke": 0.15,
+			"vanish": 1,
+			"bloom": 0.01
+		},
+		{
+			"type": "ray",
+			"intermediatePoints": true,
+			"ticks": 7,
+			"vanish": 1
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"numParticles": 1
+		}
+	]
+}

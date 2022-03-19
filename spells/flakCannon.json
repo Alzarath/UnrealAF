@@ -1,0 +1,16 @@
+{
+	"id": "flakCannon",
+	"name": "Flak Cannon",
+	"description": "Shoot a burst of shrapnel in a short arc. Get closer to focus all your damage onto one target.",
+	"action": "spray",
+	"color": "#ff9944",
+	"icon": "bubblingBeam",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 240,
+	"throttle": true,
+	"numProjectilesPerTick": 2,
+	"intervalTicks": 1,
+	"lengthTicks": 4,
+	"jitterRatio": 0.125,
+	"projectile": "ProjectileTemplate:flakShard"
+}

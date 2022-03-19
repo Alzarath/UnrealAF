@@ -1,0 +1,37 @@
+{
+	"health": 50000,
+	"static": true,
+	"undamageable": true,
+	"render": [
+		{
+			"type": "solid",
+			"color": "#0008",
+			"shadow": true,
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "bloom",
+			"color": "#ccc",
+			"strikeOnly": true,
+			"bloom": 0.05
+		},
+		{
+			"type": "solid",
+			"color": "#0008",
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "solid",
+			"color": "#ddd",
+			"deadColor": "#c33"
+		},
+		{
+			"type": "solid",
+			"color": "#999",
+			"deadColor": "#822",
+			"expand": -0.003
+		}
+	]
+}

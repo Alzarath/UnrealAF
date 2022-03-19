@@ -1,0 +1,12 @@
+{
+	"id": "flakCannonSecondary",
+	"name": "Flak Shell",
+	"description": "An explosive projectile that launches shrapnel in all directions on impact.",
+	"action": "projectile",
+	"color": "#ff9944",
+	"icon": "burningDot",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 240,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:flakGrenade"
+}

@@ -1,0 +1,23 @@
+{
+	"density": 0.0001,
+	"attractable": false,
+	"radius": 0.005,
+	"speed": 3,
+	"maxTicks": 30,
+	"damage": 8,
+	"categories": 6,
+	"swappable": false,
+	"destroying": true,
+	"sound": "kamehameha",
+	"color": "#44ddff",
+	"renderers": [
+		{
+			"type": "projectile",
+			"ticks": 1
+		},
+		{
+			"type": "ray",
+			"ticks": 1
+		}
+	]
+}

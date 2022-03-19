@@ -1,0 +1,34 @@
+{
+	"categories": 130,
+	"density": 1,
+	"restitution": 0,
+	"radius": 0.005,
+	"speed": 0,
+	"maxTicks": 300,
+	"minTicks": 1,
+	"damage": 4,
+	"destructible": {},
+	"conveyable": true,
+	"shieldTakesOwnership": false,
+	"expireOn": 65511,
+	"sound": "horcrux",
+	"color": "#22ff66",
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "projectile",
+			"ticks": 10,
+			"glow": 0.2,
+			"smoke": 0.3
+		},
+		{
+			"type": "strike",
+			"ticks": 10,
+			"flash": true,
+			"growth": 1.25,
+			"numParticles": 5
+		}
+	]
+}

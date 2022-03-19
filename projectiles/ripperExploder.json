@@ -1,0 +1,48 @@
+{
+	"density": 3,
+	"radius": 0.005,
+	"speed": 0.5,
+	"fixedSpeed": true,
+	"bumpable": true,
+	"maxTicks": 180,
+	"hitInterval": 15,
+	"damage": 10,
+	"lifeSteal": 0.3,
+	"sound": "ripper",
+	"color": "#999999",
+	"detonate": {
+		"against": 65533,
+		"damage": 10,
+		"lifeSteal": 0.3,
+		"radius": 0.02,
+		"minImpulse": 0.000125,
+		"maxImpulse": 0.000125,
+		"renderTicks": 10,
+		"sound": "flamestrike"
+	},
+	"renderers": [
+		{
+			"type": "bloom",
+			"selfColor": true
+		},
+		{
+			"type": "projectile",
+			"ticks": 10,
+			"smoke": 0.05,
+			"vanish": 0.5,
+			"bloom": 0.01
+		},
+		{
+			"type": "reticule",
+			"color": "rgba(153, 153, 153, 0.1)",
+			"radius": 0.02
+		},
+		{
+			"type": "strike",
+			"selfColor": true,
+			"ticks": 15,
+			"flash": true,
+			"growth": 1
+		}
+	]
+}

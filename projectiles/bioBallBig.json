@@ -1,0 +1,47 @@
+{
+	"basedOn": "bioBall",
+	"density": 8,
+	"radius": 0.02,
+	"damage": 64,
+	"expireOn": 1,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 65534
+			},
+			"projectile": "ProjectileTemplate:bioBallShort",
+			"numProjectiles": 4,
+			"spread": 0.45,
+			"expire": false
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"afterTicks": 120,
+				"atCursor": true
+			},
+			"projectile": "ProjectileTemplate:bioBallShort",
+			"numProjectiles": 4,
+			"spread": 0.45,
+			"expire": false
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 65535
+			},
+			"projectile": "ProjectileTemplate:bioWad-4",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"afterTicks": 120,
+				"atCursor": true
+			},
+			"projectile": "ProjectileTemplate:bioWad-4",
+			"expire": true
+		}
+	]
+}

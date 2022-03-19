@@ -1,0 +1,68 @@
+{
+	"Keys": [
+		{
+			"btn": "a",
+			"barSize": 0.75,
+			"wheelSize": 0.5
+		},
+		null,
+		{
+			"btn": "q",
+			"barSize": 1,
+			"wheelSize": 1
+		},
+		{
+			"btn": "w",
+			"barSize": 1,
+			"wheelSize": 0.75
+		},
+		{
+			"btn": "e",
+			"barSize": 1,
+			"wheelSize": 0.75
+		},
+		{
+			"btn": "r",
+			"barSize": 1,
+			"wheelSize": 0.75
+		}
+	],
+	"Options": {
+		"a": [
+			[
+				"voidRush"
+			]
+		],
+		"q": [
+			[
+				"shockRifle",
+				"bioRifle"
+			]
+		],
+		"w": [
+			[
+				"shockRifleSecondary",
+				"bioRifleSecondary"
+			]
+		],
+		"e": [
+			[
+				"flakCannon",
+				"ripper",
+				"stingerMinigun",
+				"lightningGun"
+			]
+		],
+		"r": [
+			[
+				"flakCannonSecondary",
+				"ripperSecondary",
+				"stingerMinigunSecondary",
+				"lightningGunSecondary"
+			]
+		],
+		"f": {
+			"$delete": true
+		}
+	}
+}

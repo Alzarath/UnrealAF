@@ -1,0 +1,70 @@
+{
+	"density": 5,
+	"radius": 0.005,
+	"speed": 0.35,
+	"maxTicks": 120,
+	"damage": 0,
+	"lifeSteal": 0.3,
+	"categories": 2,
+	"expireAfterCursorTicks": 0,
+	"detonate": {
+		"damage": 40,
+		"lifeSteal": 0.3,
+		"radius": 0.04,
+		"minImpulse": 0.00005,
+		"maxImpulse": 0.00005,
+		"renderTicks": 10
+	},
+	"sound": "flakCannon",
+	"color": "#ff9944",
+	"expireOn": 0,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"atCursor": true,
+				"afterTicks": 120
+			},
+			"projectile": "ProjectileTemplate:flakShard",
+			"numProjectiles": 5,
+			"spread": 0.8,
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 65519
+			},
+			"projectile": "ProjectileTemplate:flakShard",
+			"numProjectiles": 5,
+			"spread": 0.8,
+			"expire": true
+		}
+	],
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "reticule",
+			"color": "rgba(255, 153, 68, 0.1)",
+			"radius": 0.025
+		},
+		{
+			"type": "projectile",
+			"ticks": 18,
+			"smoke": 0.4,
+			"fade": "#333"
+		},
+		{
+			"type": "ray",
+			"ticks": 18
+		},
+		{
+			"type": "strike",
+			"ticks": 18,
+			"flash": true,
+			"numParticles": 5
+		}
+	]
+}

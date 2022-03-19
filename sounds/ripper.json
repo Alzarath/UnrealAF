@@ -1,0 +1,18 @@
+{
+	"start": [
+		{
+			"stopTime": 0.5,
+			"attack": 0.1,
+			"decay": 0.4,
+			"startFreq": 4900,
+			"stopFreq": 4100,
+			"lowPass": 3500,
+			"wave": "square",
+			"ratios": [
+				1,
+				1.33,
+				1.5
+			]
+		}
+	]
+}

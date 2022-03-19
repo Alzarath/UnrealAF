@@ -1,0 +1,5 @@
+{
+	"InitialRadius": 0.85,
+	"HeroLayoutProportion": 0.375,
+	"SecondsToShrink": 50000
+}

@@ -1,0 +1,29 @@
+{
+	"density": 0.5,
+	"radius": 0.0025,
+	"speed": 5,
+	"maxTicks": 30,
+	"collideWith": 65533,
+	"swappable": false,
+	"damage": 30,
+	"sound": "lightning",
+	"color": "#6666ff",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.05
+		},
+		{
+			"type": "ray",
+			"intermediatePoints": true,
+			"ticks": 30,
+			"vanish": 0.5
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"detonate": 0.01
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "lightningGunSecondary",
+	"name": "Burst Fire",
+	"description": "Rapidly fire a burst of shots in a spread.",
+	"action": "spray",
+	"color": "#ffcc00",
+	"icon": "randomCrosshair",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 240,
+	"chargeTicks": 30,
+	"throttle": true,
+	"intervalTicks": 8,
+	"lengthTicks": 24,
+	"jitterRatio": 0.1,
+	"projectile": "ProjectileTemplate:lightningBolt"
+}

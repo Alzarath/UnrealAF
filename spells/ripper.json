@@ -1,0 +1,12 @@
+{
+	"id": "ripper",
+	"name": "Ripper",
+	"description": "Ricocheting blades.",
+	"action": "projectile",
+	"color": "#999999",
+	"icon": "divert",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 150,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:ripperBouncer"
+}

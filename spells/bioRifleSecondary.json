@@ -1,0 +1,21 @@
+{
+	"id": "bioRifleSecondary",
+	"name": "Charged Bio Rifle",
+	"description": "Charge up and fire a large toxic blob that detonates into a large number of smaller blobs.",
+	"comments": "0x80 is x1; 0x100 is x2; 0x200 is x3; 0x400 is x4",
+	"action": "charge",
+	"sound": "blast",
+	"color": "#22ff66",
+	"icon": "burningEye",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 240,
+	"throttle": true,
+	"chargeTicks": 120,
+	"release": {
+		"maxChargeTicks": 120,
+		"interrupt": true
+	},
+	"retarget": true,
+	"movementProportionWhileCharging": 0.5,
+	"projectile": "ProjectileTemplate:bioBallBig"
+}

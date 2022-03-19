@@ -1,0 +1,26 @@
+{
+	"start": [
+		{
+			"stopTime": 0.75,
+			"attack": 0.25,
+			"decay": 0.8,
+			"highPass": 2500,
+			"lowPass": 2510,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 2,
+			"attack": 0.25,
+			"decay": 1.75,
+			"startFreq": 1000,
+			"stopFreq": 1003,
+			"lowPass": 300,
+			"tremoloFreq": 2,
+			"tremoloStrength": 0.2,
+			"wave": "square",
+			"ratios": [
+				1.5
+			]
+		}
+	]
+}

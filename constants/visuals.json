@@ -1,0 +1,6 @@
+{
+	"CameraPanRate": 0.0325,
+	"CameraZoomRate": 0.0325,
+	"CameraSmoothRate": 0.25,
+	"CameraCenterTolerance": 0.025
+}

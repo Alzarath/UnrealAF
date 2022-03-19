@@ -1,0 +1,7 @@
+{
+	"basedOn": "bioWad-1",
+	"categories": 258,
+	"density": 2,
+	"radius": 0.01,
+	"damage": 8
+}

@@ -1,0 +1,19 @@
+{
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.5,
+			"attack": 0.05,
+			"decay": 0.2,
+			"startFreq": 1200,
+			"stopFreq": 1200,
+			"lowPass": 300,
+			"tremoloFreq": 2,
+			"tremoloStrength": 0.2,
+			"wave": "square",
+			"ratios": [
+				1
+			]
+		}
+	]
+}

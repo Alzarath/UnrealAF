@@ -1,0 +1,86 @@
+{
+	"categories": 2,
+	"density": 1,
+	"restitution": 0,
+	"radius": 0.005,
+	"speed": 0.35,
+	"maxTicks": 600,
+	"minTicks": 1,
+	"damage": 4,
+	"expireOn": 1,
+	"conveyable": true,
+	"shieldTakesOwnership": false,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 8
+			},
+			"projectile": "ProjectileTemplate:bioWad-1",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"afterTicks": 120,
+				"atCursor": true
+			},
+			"projectile": "ProjectileTemplate:bioWad-1",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:bioWad-2",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 256
+			},
+			"projectile": "ProjectileTemplate:bioWad-3",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 512
+			},
+			"projectile": "ProjectileTemplate:bioWad-4",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 1024
+			},
+			"projectile": "ProjectileTemplate:bioBall",
+			"numProjectiles": 8,
+			"spread": 0.9,
+			"expire": true
+		}
+	],
+	"sound": "horcrux",
+	"color": "#22ff66",
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "projectile",
+			"ticks": 10,
+			"glow": 0.2,
+			"smoke": 0.3
+		},
+		{
+			"type": "strike",
+			"ticks": 10,
+			"flash": true,
+			"growth": 1.25,
+			"numParticles": 5
+		}
+	]
+}

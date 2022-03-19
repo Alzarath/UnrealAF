@@ -1,0 +1,19 @@
+{
+	"id": "shockRifleSecondary",
+	"name": "Plasma Charge",
+	"description": "Unstable energy projectile, expands radially.",
+	"effects": [
+		{
+			"icon": "fas fa-sync",
+			"title": "Synergy",
+			"text": "Detonated by Shock Rifle for massive damage."
+		}
+	],
+	"action": "projectile",
+	"color": "#9900ff",
+	"icon": "burningDot",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 120,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:shockBall"
+}

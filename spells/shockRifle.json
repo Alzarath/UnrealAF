@@ -1,0 +1,14 @@
+{
+	"id": "shockRifle",
+	"name": "Shock Rifle",
+	"description": "Lightning-fast burst of focused energy.",
+	"comments": "0x40 is the Shock Rifle projectile. Used to detonate the Plasma Charge",
+	"action": "projectile",
+	"color": "#9900ff",
+	"icon": "lightningHelix",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"chargeTicks": 6,
+	"projectile": "ProjectileTemplate:shockBeam"
+}
