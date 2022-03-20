@@ -6,7 +6,7 @@
 	"color": "#999999",
 	"icon": "divert",
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 150,
+	"cooldown": 60,
 	"throttle": true,
 	"jitterRatio": 0,
 	"intervalTicks": 45,

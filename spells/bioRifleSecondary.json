@@ -8,7 +8,7 @@
 	"color": "#22ff66",
 	"icon": "burningEye",
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 240,
+	"cooldown": 30,
 	"throttle": true,
 	"chargeTicks": 120,
 	"release": {

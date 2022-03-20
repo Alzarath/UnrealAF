@@ -18,7 +18,7 @@
 	"color": "#22ff66",
 	"icon": "unburningEye",
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 29,
+	"cooldown": 30,
 	"throttle": true,
 	"jitterRatio": 0,
 	"intervalTicks": 30,
