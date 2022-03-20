@@ -8,6 +8,24 @@
 	"categories": 6,
 	"swappable": false,
 	"destroying": true,
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "follow",
+			"revolutionsPerSecond": 1,
+			"redirect": true
+		}
+	],
+	"projectileBuffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 10,
+			"spellIds": [
+				"stingerMinigun", "stingerMinigunSecondary"
+			]
+		}
+	],
 	"sound": "kamehameha",
 	"color": "#44ddff",
 	"renderers": [

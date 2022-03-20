@@ -1,0 +1,21 @@
+{
+	"id": "bioRifle",
+	"name": "Bio Rifle",
+	"description": "Fire a small toxic blob that persists for a while after placement and damages enemies that touch it",
+	"comments": "0x80 is x1; 0x100 is x2; 0x200 is x3; 0x400 is x4",
+	"effects": [
+		{
+			"icon": "fas fa-sync",
+			"title": "Synergy",
+			"text": "Impacting with another toxic blob will merge them into a larger blob."
+		}
+	],
+	"action": "projectile",
+	"sound": "horcrux",
+	"color": "#22ff66",
+	"icon": "unburningEye",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 45,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:bioBall"
+}

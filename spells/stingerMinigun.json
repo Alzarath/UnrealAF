@@ -2,34 +2,23 @@
 	"id": "stingerMinigun",
 	"name": "Stinger Minigun",
 	"description": "Fire a rapid volley of projectiles in a direction.",
-	"effects": [
-		{
-			"icon": "fas fa-hand-paper",
-			"title": "Interruptible",
-			"text": "If you take an enemy hit, Acolyte Beam will be interrupted."
-		}
-	],
 	"action": "spray",
 	"sound": "kamehameha",
 	"color": "#44ddff",
 	"icon": "glowingHands",
 	"maxAngleDiffInRevs": 0.0001,
 	"chargeTicks": 18,
-	"cooldown": 480,
+	"cooldown": 5,
 	"throttle": true,
 	"revsPerTickWhileCharging": 0,
 	"revsPerTickWhileChannelling": 0.0025,
-	"movementCancel": true,
-	"strikeCancel": {
-		"cooldownTicks": 300
-	},
-	"interruptibleAfterTicks": 0,
-	"interruptCancel": {
-		"cooldownTicks": 300,
-		"maxChannelingTicks": 0
+	"movementProportionWhileChannelling": 0.5,
+	"movementProportionWhileCharging": 0.5,
+	"release": {
+		"interrupt": true
 	},
 	"jitterRatio": 0,
 	"intervalTicks": 5,
-	"lengthTicks": 180,
+	"lengthTicks": 240,
 	"projectile": "ProjectileTemplate:stingerBullet"
 }

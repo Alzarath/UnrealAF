@@ -4,6 +4,11 @@
 	"radius": 0.02,
 	"damage": 64,
 	"expireOn": 1,
+	"detonate": {
+		"against": 1,
+		"damage": 64,
+		"radius": 0.025
+	},
 	"behaviours": [
 		{
 			"type": "spawn",

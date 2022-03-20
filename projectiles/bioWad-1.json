@@ -10,11 +10,25 @@
 	"expireOn": 19,
 	"conveyable": true,
 	"shieldTakesOwnership": false,
+	"detonate": {
+		"against": 1,
+		"damage": 4,
+		"radius": 0.005
+	},
 	"behaviours": [
 		{
 			"type": "spawn",
 			"trigger": {
 				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:bioWad-2",
+			"requireParent": true,
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 256
 			},
 			"projectile": "ProjectileTemplate:bioWad-2",
 			"requireParent": true,

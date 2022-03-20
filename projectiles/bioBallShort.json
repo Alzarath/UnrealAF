@@ -6,7 +6,7 @@
 			"trigger": {
 				"afterTicks": 15
 			},
-			"projectile": "ProjectileTemplate:bioWad-1",
+			"projectile": "ProjectileTemplate:bioWad-1-precursor",
 			"requireParent": true,
 			"expire": true
 		},
@@ -15,8 +15,9 @@
 			"trigger": {
 				"collideWith": 8
 			},
-			"projectile": "ProjectileTemplate:bioWad-1",
+			"projectile": "ProjectileTemplate:bioWad-1-precursor",
 			"expire": true
 		}
-	]
+	],
+	"projectileBuffs": []
 }

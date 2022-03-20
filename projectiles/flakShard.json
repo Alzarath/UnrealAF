@@ -7,10 +7,14 @@
 	"speed": 0.8,
 	"maxTicks": 30,
 	"damage": 4,
-	"lifeSteal": 0.3,
 	"color": "#ff9944",
 	"sound": "flakCannon",
 	"soundHit": "flakShard",
+	"detonate": {
+		"against": 1,
+		"damage": 4,
+		"radius": 0.01
+	},
 	"renderers": [
 		{
 			"type": "bloom",

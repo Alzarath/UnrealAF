@@ -1,13 +1,13 @@
 {
 	"density": 5,
-	"radius": 0.0075,
+	"radius": 0.06,
 	"speed": 0,
 	"maxTicks": 1,
 	"damage": 0,
-	"categories": 130,
-	"expireAfterCursorTicks": 0,
+	"categories": 66,
+	"expireAfterCursorTicks": 1,
 	"detonate": {
-		"against": 65535,
+		"against": 15,
 		"damage": 20,
 		"radius": 0.06,
 		"minImpulse": 0.00025,

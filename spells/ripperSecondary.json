@@ -1,12 +1,10 @@
 {
+	"basedOn": "ripper",
 	"id": "ripperSecondary",
 	"name": "Explosive Disc",
 	"description": "Exploding blades.",
-	"action": "projectile",
-	"color": "#999999",
 	"icon": "fragmentedMeteor",
-	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 180,
-	"throttle": true,
+	"intervalTicks": 60,
 	"projectile": "ProjectileTemplate:ripperExploder"
 }

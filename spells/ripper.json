@@ -2,11 +2,19 @@
 	"id": "ripper",
 	"name": "Ripper",
 	"description": "Ricocheting blades.",
-	"action": "projectile",
+	"action": "spray",
 	"color": "#999999",
 	"icon": "divert",
 	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 150,
 	"throttle": true,
+	"jitterRatio": 0,
+	"intervalTicks": 45,
+	"lengthTicks": 9001,
+	"movementProportionWhileChannelling": 1.0,
+	"movementProportionWhileCharging": 1.0,
+	"release": {
+		"interrupt": true
+	},
 	"projectile": "ProjectileTemplate:ripperBouncer"
 }

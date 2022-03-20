@@ -13,7 +13,7 @@
 	"color": "#9900ff",
 	"icon": "burningDot",
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 120,
+	"cooldown": 60,
 	"throttle": true,
 	"projectile": "ProjectileTemplate:shockBall"
 }

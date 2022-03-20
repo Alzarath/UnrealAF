@@ -1,0 +1,12 @@
+{
+	"basedOn": "bioWad-1",
+	"categories": 128,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"projectile": "ProjectileTemplate:bioWad-1",
+			"requireParent": true,
+			"expire": true
+		}
+	]
+}

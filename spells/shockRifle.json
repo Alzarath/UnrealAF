@@ -7,7 +7,7 @@
 	"color": "#9900ff",
 	"icon": "lightningHelix",
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 90,
+	"cooldown": 60,
 	"throttle": true,
 	"chargeTicks": 6,
 	"projectile": "ProjectileTemplate:shockBeam"

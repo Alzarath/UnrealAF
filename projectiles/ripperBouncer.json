@@ -7,9 +7,32 @@
 	"maxTicks": 300,
 	"hitInterval": 15,
 	"damage": 20,
-	"lifeSteal": 0.3,
 	"collideWith": 29,
-	"expireOn": 3,
+	"expireOn": 1,
+	"detonate": {
+		"against": 1,
+		"damage": 20,
+		"radius": 0.01
+	},
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "follow",
+			"revolutionsPerSecond": 1,
+			"redirect": true
+		}
+	],
+	"projectileBuffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 45,
+			"maxCooldown": 45,
+			"spellIds": [
+				"ripper", "ripperSecondary"
+			]
+		}
+	],
 	"sound": "ripper",
 	"color": "#999999",
 	"renderers": [

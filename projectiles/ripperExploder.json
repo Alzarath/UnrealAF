@@ -7,19 +7,36 @@
 	"maxTicks": 180,
 	"hitInterval": 15,
 	"damage": 10,
-	"lifeSteal": 0.3,
 	"sound": "ripper",
 	"color": "#999999",
 	"detonate": {
-		"against": 65533,
+		"against": 15,
 		"damage": 10,
-		"lifeSteal": 0.3,
 		"radius": 0.02,
 		"minImpulse": 0.000125,
 		"maxImpulse": 0.000125,
 		"renderTicks": 10,
 		"sound": "flamestrike"
 	},
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "follow",
+			"revolutionsPerSecond": 1,
+			"redirect": true
+		}
+	],
+	"projectileBuffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 60,
+			"maxCooldown": 60,
+			"spellIds": [
+				"ripper", "ripperSecondary"
+			]
+		}
+	],
 	"renderers": [
 		{
 			"type": "bloom",

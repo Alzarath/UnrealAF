@@ -2,5 +2,6 @@
 	"basedOn": "bioBall",
 	"maxTicks": 60,
 	"expireOn": 265,
-	"behaviours": []
+	"behaviours": [],
+	"projectileBuffs": []
 }

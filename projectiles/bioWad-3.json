@@ -1,8 +1,14 @@
 {
-	"basedOn": "bioWad-1",
+	"basedOn": "bioWad-2",
+	"categories": 256,
 	"density": 4,
 	"radius": 0.015,
 	"damage": 16,
+	"detonate": {
+		"against": 1,
+		"damage": 16,
+		"radius": 0.015
+	},
 	"behaviours": [
 		{
 			"type": "spawn",
