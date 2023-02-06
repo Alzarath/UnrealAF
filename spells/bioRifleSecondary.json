@@ -7,6 +7,17 @@
 	"sound": "blast",
 	"color": "#22ff66",
 	"icon": "burningEye",
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 30,
+			"maxCooldown": 30,
+			"spellIds": [
+				"bioRifle", "bioRifleSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 30,
 	"throttle": true,

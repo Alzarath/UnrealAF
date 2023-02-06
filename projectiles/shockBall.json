@@ -18,9 +18,12 @@
 	"behaviours": [
 		{
 			"type": "spawn",
-			"trigger": {
-				"collideWith": 64
-			},
+			"triggers": [
+				{
+					"type": "collideWith",
+					"collideWith": 64
+				}
+			],
 			"projectile": "ProjectileTemplate:shockBallExplosion",
 			"expire": true
 		}

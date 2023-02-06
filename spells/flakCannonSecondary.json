@@ -5,8 +5,19 @@
 	"action": "projectile",
 	"color": "#ff9944",
 	"icon": "burningDot",
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 150,
+			"maxCooldown": 150,
+			"spellIds": [
+				"flakCannon", "flakCannonSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 240,
+	"cooldown": 150,
 	"throttle": true,
 	"projectile": "ProjectileTemplate:flakGrenade"
 }

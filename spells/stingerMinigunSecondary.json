@@ -2,6 +2,17 @@
 	"basedOn": "stingerMinigun",
 	"id": "stingerMinigunSecondary",
 	"description": "Fire a slower volley of powerful projectiles in a direction.",
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 10,
+			"maxCooldown": 10,
+			"spellIds": [
+				"stingerMinigun", "stingerMinigunSecondary"
+			]
+		}
+	],
 	"cooldown": 10,
 	"intervalTicks": 10,
 	"projectile": "ProjectileTemplate:stingerBulletDense"

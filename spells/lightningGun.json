@@ -5,8 +5,22 @@
 	"action": "projectile",
 	"color": "#ffcc00",
 	"icon": "crosshair",
+	"loadout": {
+		"r": "lightningGunSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 180,
+			"maxCooldown": 180,
+			"spellIds": [
+				"lightningGun", "lightningGunSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 240,
+	"cooldown": 180,
 	"throttle": true,
 	"chargeTicks": 6,
 	"projectile": "ProjectileTemplate:lightningBolt"

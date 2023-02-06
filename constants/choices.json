@@ -8,23 +8,26 @@
 		null,
 		{
 			"btn": "q",
-			"barSize": 1,
+			"barSize": 0.75,
 			"wheelSize": 1
 		},
 		{
 			"btn": "w",
 			"barSize": 1,
-			"wheelSize": 0.75
+			"wheelSize": 0.75,
+			"locked": true
 		},
+		null,
 		{
 			"btn": "e",
-			"barSize": 1,
+			"barSize": 0.75,
 			"wheelSize": 0.75
 		},
 		{
 			"btn": "r",
 			"barSize": 1,
-			"wheelSize": 0.75
+			"wheelSize": 0.75,
+			"locked": true
 		}
 	],
 	"Options": {
@@ -60,9 +63,11 @@
 				"stingerMinigunSecondary",
 				"lightningGunSecondary"
 			]
-		],
-		"f": {
-			"$delete": true
-		}
+		]
+	},
+	"Special": {
+		"move": "move",
+		"retarget": "retarget",
+		"s": "stop"
 	}
 }

@@ -5,8 +5,22 @@
 	"action": "spray",
 	"color": "#ff9944",
 	"icon": "bubblingBeam",
+	"loadout": {
+		"r": "flakCannonSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 120,
+			"maxCooldown": 120,
+			"spellIds": [
+				"flakCannon", "flakCannonSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
-	"cooldown": 240,
+	"cooldown": 120,
 	"throttle": true,
 	"numProjectilesPerTick": 2,
 	"intervalTicks": 1,

@@ -5,12 +5,23 @@
 	"action": "spray",
 	"color": "#ffcc00",
 	"icon": "randomCrosshair",
-	"maxAngleDiffInRevs": 0.01,
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 240,
+			"maxCooldown": 240,
+			"spellIds": [
+				"lightningGun", "lightningGunSecondary"
+			]
+		}
+	],
+	"maxAngleDiffInRevs": 0.0,
 	"cooldown": 240,
 	"chargeTicks": 30,
 	"throttle": true,
 	"intervalTicks": 8,
 	"lengthTicks": 24,
-	"jitterRatio": 0.1,
+	"jitterRatio": 0.05,
 	"projectile": "ProjectileTemplate:lightningBolt"
 }

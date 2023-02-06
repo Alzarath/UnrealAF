@@ -6,6 +6,20 @@
 	"action": "projectile",
 	"color": "#9900ff",
 	"icon": "lightningHelix",
+	"loadout": {
+		"w": "shockRifleSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 60,
+			"maxCooldown": 60,
+			"spellIds": [
+				"shockRifle", "shockRifleSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 60,
 	"throttle": true,

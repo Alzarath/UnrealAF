@@ -20,21 +20,16 @@
 	"behaviours": [
 		{
 			"type": "spawn",
-			"trigger": {
-				"atCursor": true
-			},
-			"requireParent": true,
-			"projectile": "ProjectileTemplate:flakShard",
-			"numProjectiles": 5,
-			"spread": 0.8,
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 65519
-			},
-			"requireParent": true,
+			"maxTriggers": 1,
+			"triggers": [
+				{
+					"type": "atCursor"
+				},
+				{
+					"type": "collideWith",
+					"collideWith": 65519
+				}
+			],
 			"projectile": "ProjectileTemplate:flakShard",
 			"numProjectiles": 5,
 			"spread": 0.8,

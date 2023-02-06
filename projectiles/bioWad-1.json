@@ -18,20 +18,13 @@
 	"behaviours": [
 		{
 			"type": "spawn",
-			"trigger": {
-				"collideWith": 128
-			},
+			"triggers": [
+				{
+					"type": "collideWith",
+					"collideWith": 128
+				}
+			],
 			"projectile": "ProjectileTemplate:bioWad-2",
-			"requireParent": true,
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 256
-			},
-			"projectile": "ProjectileTemplate:bioWad-2",
-			"requireParent": true,
 			"expire": true
 		}
 	],
@@ -39,7 +32,8 @@
 	"color": "#22ff66",
 	"renderers": [
 		{
-			"type": "bloom"
+			"type": "bloom",
+			"radius": 0.015
 		},
 		{
 			"type": "projectile",

@@ -6,6 +6,20 @@
 	"sound": "kamehameha",
 	"color": "#44ddff",
 	"icon": "glowingHands",
+	"loadout": {
+		"r": "stingerMinigunSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 5,
+			"maxCooldown": 5,
+			"spellIds": [
+				"stingerMinigun", "stingerMinigunSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.0001,
 	"chargeTicks": 18,
 	"cooldown": 5,

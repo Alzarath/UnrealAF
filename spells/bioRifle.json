@@ -13,20 +13,27 @@
 			"text": "Hitting another immobile toxic blob will merge them into a larger blob."
 		}
 	],
-	"action": "spray",
+	"action": "projectile",
 	"sound": "horcrux",
 	"color": "#22ff66",
 	"icon": "unburningEye",
+	"retarget": true,
+	"loadout": {
+		"w": "bioRifleSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 30,
+			"maxCooldown": 30,
+			"spellIds": [
+				"bioRifle", "bioRifleSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 30,
 	"throttle": true,
-	"jitterRatio": 0,
-	"intervalTicks": 30,
-	"lengthTicks": 9001,
-	"movementProportionWhileChannelling": 1.0,
-	"movementProportionWhileCharging": 1.0,
-	"release": {
-		"interrupt": true
-	},
 	"projectile": "ProjectileTemplate:bioBall"
 }

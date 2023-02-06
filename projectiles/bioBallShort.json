@@ -1,21 +1,18 @@
 {
 	"basedOn": "bioBall",
+	"expireOn": 265,
 	"behaviours": [
 		{
 			"type": "spawn",
-			"trigger": {
-				"afterTicks": 15
-			},
+			"maxTriggers": 1,
+			"triggers": [
+				{
+					"type": "afterTicks",
+					"afterTicks": 15
+				}
+			],
 			"projectile": "ProjectileTemplate:bioWad-1-precursor",
 			"requireParent": true,
-			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"collideWith": 8
-			},
-			"projectile": "ProjectileTemplate:bioWad-1-precursor",
 			"expire": true
 		}
 	],

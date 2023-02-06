@@ -2,9 +2,23 @@
 	"id": "ripper",
 	"name": "Ripper",
 	"description": "Ricocheting blades.",
-	"action": "spray",
+	"action": "projectile",
 	"color": "#999999",
 	"icon": "divert",
+	"loadout": {
+		"r": "ripperSecondary"
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 60,
+			"maxCooldown": 60,
+			"spellIds": [
+				"ripper", "ripperSecondary"
+			]
+		}
+	],
 	"maxAngleDiffInRevs": 0.01,
 	"cooldown": 60,
 	"throttle": true,

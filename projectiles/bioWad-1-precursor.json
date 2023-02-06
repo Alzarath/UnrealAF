@@ -1,9 +1,19 @@
 {
 	"basedOn": "bioWad-1",
+	"radius": 0.01,
 	"categories": 128,
+	"collideWith": 0,
+	"sense": 256,
+	"expireOn": 256,
 	"behaviours": [
 		{
 			"type": "spawn",
+			"triggers": [
+				{
+					"type": "afterTicks",
+					"afterTicks": 2
+				}
+			],
 			"projectile": "ProjectileTemplate:bioWad-1",
 			"requireParent": true,
 			"expire": true

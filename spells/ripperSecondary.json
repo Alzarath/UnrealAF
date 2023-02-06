@@ -4,6 +4,17 @@
 	"name": "Explosive Disc",
 	"description": "Exploding blades.",
 	"icon": "fragmentedMeteor",
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 90,
+			"maxCooldown": 90,
+			"spellIds": [
+				"ripper", "ripperSecondary"
+			]
+		}
+	],
 	"cooldown": 90,
 	"intervalTicks": 60,
 	"projectile": "ProjectileTemplate:ripperExploder"

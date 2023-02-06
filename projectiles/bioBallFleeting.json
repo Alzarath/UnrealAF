@@ -1,5 +1,6 @@
 {
 	"basedOn": "bioBall",
+	"categories": 128,
 	"maxTicks": 60,
 	"expireOn": 265,
 	"behaviours": [],

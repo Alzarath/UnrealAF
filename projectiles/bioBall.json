@@ -17,46 +17,28 @@
 	},
 	"behaviours": [
 		{
-			"type": "homing",
-			"targetType": "follow",
-			"revolutionsPerSecond": 1,
-			"redirect": true
-		},
-		{
 			"type": "spawn",
-			"trigger": {
-				"collideWith": 8
-			},
+			"maxTriggers": 1,
+			"triggers": [
+				{
+					"type": "atCursor"
+				},
+				{
+					"type": "collideWith",
+					"collideWith": 8
+				}
+			],
 			"projectile": "ProjectileTemplate:bioWad-1-precursor",
 			"requireParent": true,
 			"expire": true
-		},
-		{
-			"type": "spawn",
-			"trigger": {
-				"atCursor": true
-			},
-			"projectile": "ProjectileTemplate:bioWad-1-precursor",
-			"requireParent": true,
-			"expire": true
-		}
-	],
-	"projectileBuffs": [
-		{
-			"type": "cooldown",
-			"owner": true,
-			"adjustCooldown": 30,
-			"maxCooldown": 30,
-			"spellIds": [
-				"bioRifle", "bioRifleSecondary"
-			]
 		}
 	],
 	"sound": "horcrux",
 	"color": "#22ff66",
 	"renderers": [
 		{
-			"type": "bloom"
+			"type": "bloom",
+			"radius": 0.015
 		},
 		{
 			"type": "projectile",
